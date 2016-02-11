@@ -70,7 +70,7 @@ class Balloon {
         return quantity;
     }
 
-    public static void destroy(int i, Balloon[] arg) {
+    static void destroy(int i, Balloon[] arg) {
         quantity--;
         arg[i] = null;
     }
