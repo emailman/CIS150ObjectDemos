@@ -70,6 +70,7 @@ class Balloon {
         return quantity;
     }
 
+    // Destroy a balloon given the index value
     static void destroy(int i, Balloon[] arg) {
         quantity--;
         arg[i] = null;
