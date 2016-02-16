@@ -93,7 +93,7 @@ class Balloon {
     public String toString() {
         return "Balloon{" +
                 "size=" + size +
-                ", color='" + color + '\'' +
+                ", color=" + color  +
                 ", " + (isInflated() ? " Inflated" : " Not Inflated") +
                 '}';
     }
